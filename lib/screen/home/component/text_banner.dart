@@ -55,14 +55,13 @@ class AnimatedText extends StatelessWidget {
           Text("I build "),
           AnimatedTextKit(
             animatedTexts: [
+              TyperAnimatedText("social networking application."),
               TyperAnimatedText("flutter portofolio website."),
               TyperAnimatedText("e-commerce with firebase."),
               TyperAnimatedText("social media integeration."),
               TyperAnimatedText("covid tracker integeration."),
               TyperAnimatedText("flutter news app."),
-              TyperAnimatedText("hero quiz app."),
               TyperAnimatedText("translator apps."),
-              TyperAnimatedText("to-do list apps."),
             ],
           ),
         ],
