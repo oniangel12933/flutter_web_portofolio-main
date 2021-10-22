@@ -13,10 +13,12 @@ class MyProject extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        SizedBox(height: defaultPadding),
         Text(
           "My Projects",
           style: Theme.of(context).textTheme.headline6,
         ),
+        SizedBox(height: 5),
         Text(
           "Click Read More if you want see a source code or more details",
         ),
@@ -32,7 +34,7 @@ class MyProject extends StatelessWidget {
             tablet: ProjectGridView(
               childAspectRatio: 1.1,
             ),
-            desktop: ProjectGridView())
+            desktop: ProjectGridView()),
       ],
     );
   }

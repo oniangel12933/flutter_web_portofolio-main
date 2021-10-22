@@ -26,6 +26,7 @@ class MainScreen extends StatelessWidget {
       drawer: DrawerWeb(),
       body: Center(
         child: Container(
+          padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           constraints: BoxConstraints(maxWidth: maxWidth),
           child: Row(
             children: [

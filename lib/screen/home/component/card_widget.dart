@@ -20,27 +20,55 @@ class CardWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            project.title!,
+            project.title,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             style: Theme.of(context).textTheme.subtitle2,
           ),
           Spacer(),
           Text(
-            project.description!,
+            project.description,
             maxLines: 4,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(height: 1.5),
           ),
           Spacer(),
-          TextButton(
-            onPressed: () {
-              launch(project.link!);
-            },
-            child: Text(
-              "Read More >>",
-              style: TextStyle(color: primaryColor),
-            ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              TextButton(
+                onPressed: () {
+                  launch(project.link);
+                },
+                child: Text(
+                  "Read More >>",
+                  style: TextStyle(color: primaryColor),
+                ),
+              ),
+              Row(
+                children: [
+                  if (project.urlOfAppStore.isNotEmpty)
+                    TextButton(
+                        child: Image.asset(
+                          'assets/images/app-store.png',
+                          width: 35,
+                        ),
+                        onPressed: () {
+                          launch(project.urlOfAppStore);
+                        }),
+                  const SizedBox(width: 10),
+                  if (project.urlOfPlayStore.isNotEmpty)
+                    TextButton(
+                        child: Image.asset(
+                          'assets/images/playstore.png',
+                          width: 35,
+                        ),
+                        onPressed: () {
+                          launch(project.urlOfPlayStore);
+                        })
+                ],
+              )
+            ],
           )
         ],
       ),

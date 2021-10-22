@@ -1,17 +1,41 @@
 class Project {
-  final String? title, description, link;
+  final String title, description, link, urlOfAppStore, urlOfPlayStore;
 
-  Project({this.title, this.description, this.link});
+  Project(
+      {this.title = '',
+      this.description = '',
+      this.link = '',
+      this.urlOfAppStore = '',
+      this.urlOfPlayStore = ''});
 }
 
 // ignore: non_constant_identifier_names
 List<Project> demo_projects = [
   Project(
-    title: "Social Networking App",
-    link: "https://github.com/oniangel12933/trefla",
-    description:
-        "- Real Time Chat\n- Socket Communication\n- Customized Profile\n- Social Integration\n- Clean Code and a lot of more...",
-  ),
+      title: "Trefla",
+      link: "https://github.com/oniangel12933/trefla",
+      description:
+          "- Real Time Chat\n- Socket Communication\n- Customized Profile\n- Social Integration\n",
+      urlOfAppStore: 'https://apps.apple.com/cn/app/trefla/id1550695660?l=en',
+      urlOfPlayStore:
+          'https://play.google.com/store/apps/details?id=com.mobile.trefla&hl=en_US&gl=US'),
+  Project(
+      title: "Pod Network",
+      link: "https://github.com/oniangel12933/podnetwork",
+      description:
+          "- Google Map\n- In app chat\n- Rest Api and JSON\n- Firebase\n",
+      urlOfAppStore: 'https://apps.apple.com/us/app/pod-network/id1481372679',
+      urlOfPlayStore:
+          'https://play.google.com/store/apps/details?id=io.pod.app'),
+  Project(
+      title: "Expin",
+      link: "https://github.com/oniangel12933/expin",
+      description:
+          "- Book for several services\n- Search sevices like hotels\n- Review system\n- Firebase\n",
+      urlOfAppStore:
+          'https://apps.apple.com/ph/app/expin-influencer-marketing/id1484450218',
+      urlOfPlayStore:
+          'https://play.google.com/store/apps/details?id=com.expinapp'),
   Project(
     title: "Flutter Portofolio Website",
     link: "https://github.com/oniangel12933/flutter_web_portofolio-main",
