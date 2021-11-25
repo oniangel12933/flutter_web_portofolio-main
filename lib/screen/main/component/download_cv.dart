@@ -13,7 +13,7 @@ class DownloadCV extends StatelessWidget {
     return TextButton(
       onPressed: () {
         launch(
-            'https://drive.google.com/file/d/1v-N6AGN3Ri3hwWsLLBcdXcRTBsK_cG2G/view?usp=sharing');
+            'https://drive.google.com/file/d/1C-bBvsA5TIPQBiS-kHiSOepqWEeAc_Ca/view?usp=sharing');
       },
       child: FittedBox(
         child: Row(
