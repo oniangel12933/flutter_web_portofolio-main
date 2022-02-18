@@ -1,6 +1,6 @@
 # ✔️ Flutter Portofolio Website
 
-A Flutter app based on the design of the Flutter Portofolio Website, created by *Achmad Rizki Nur Fauzie*,
+A Flutter app based on the design of the Flutter Portofolio Website, created by *JingWu Jin*,
 
 ## Features
 - Responsive Apps
