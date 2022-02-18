@@ -27,9 +27,9 @@ A Flutter app based on the design of the Flutter Portofolio Website, created by 
 ```
 
 ## Link Website
-https://achmadrizkin.github.io/web_portofolio/#/
+http://profile.prepstaapps.com/#/
 
 ## Preview App
-![image](https://user-images.githubusercontent.com/75843138/134105326-ca622a02-0b05-4ee3-8acc-5735dabfc407.png)
-![image](https://user-images.githubusercontent.com/75843138/134105362-c01c7d1e-8947-4ae5-a51a-b704b8de5400.png)
-![image](https://user-images.githubusercontent.com/75843138/134105385-52d490a0-29f4-410b-b045-bf6844f444b3.png)
+![image](https://i.ibb.co/wNd34fz/Screen-Shot-2022-02-19-at-1-06-30-AM.png)
+![image](https://i.ibb.co/KGbqZd4/Screen-Shot-2022-02-19-at-1-06-43-AM.png)
+![image](https://i.ibb.co/T2TzFBB/Screen-Shot-2022-02-19-at-1-06-59-AM.png)
