@@ -20,7 +20,7 @@ class MyInfo extends StatelessWidget {
             ),
             Spacer(),
             Text(
-              "JingWu Jin",
+              "Xin Ma",
               style: Theme.of(context).textTheme.subtitle1,
             ),
             Text(

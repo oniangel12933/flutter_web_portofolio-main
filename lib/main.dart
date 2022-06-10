@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'JingWu\'s Portofolio',
+      title: 'XinMa\'s Portofolio',
       // we are using dark theme and we modify it as our need
       theme: ThemeData.dark().copyWith(
         primaryColor: primaryColor,

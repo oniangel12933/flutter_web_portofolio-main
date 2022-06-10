@@ -18,7 +18,7 @@ class SocialMedia extends StatelessWidget {
               Spacer(),
               IconAbout(
                 asset: 'assets/icons/linkedin.svg',
-                url: 'https://www.linkedin.com/in/jingwu-jin-216898211/',
+                url: 'https://www.linkedin.com/in/xin-ma-42677a229/',
               ),
               IconAbout(
                 asset: 'assets/icons/github.svg',
